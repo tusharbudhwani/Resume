@@ -13,16 +13,31 @@
             margin: 0%;
         }
         body{
-            display: flex;
+            
+
             margin: 0%;
-            justify-content:center;
+            
         }
-       
+        
         #fullBody {
+            padding: 5%;
+            width: 60%; 
             margin: 50px 20px 50px 20px;
             padding: 0px;
         }
 
+        @media (max-width: 700px){
+            #fullBody {
+            width: 100%; 
+        }
+    }
+
+        #fullbodytwo{
+            display: flex;
+            justify-content: center;
+
+        }
+        
         #heading {
             color: dodgerblue;
             margin-top: 15px;
@@ -40,6 +55,7 @@
 </head>
 
 <body>
+    <div id="fullbodytwo">
     <div id="fullBody">
         <h1>Tushar Budhwani</h1>
         <h4>+91 70394 60876 <br>
@@ -64,9 +80,9 @@
             <h3 id="subcategory">Resume Builder Website</h3>
             <ul>
                 <li>Created a website that generates Resume from the details provided by the user on the website . A user
-                    first <br>
+                    first <!-- <br> -->
                     needs to Register/Login on the website. The details of the registered user are stored in the backend,
-                    providing <br>
+                    providing <!-- <br> -->
                     the flexibility to the user to update the details.
                 </li>
                 <li>Technologies involved : HTML, CSS, JavaScript, Django, FaunaDB.</li>
@@ -86,7 +102,7 @@
             <h3 id="subcategory">Online Talent Platform - (Ongoing)</h3>
             <ul>
                 <li>Creating a Web Application as a platform for budding artists such as musicians, dancers, etc. to
-                    showcase their<br>
+                    showcase their<!-- <br> -->
                     talent and get recognized by talent-hiring companies and individuals.
                 </li>
                 <li><u>Technologies involved</u> : HTML, CSS, JavaScript, Bootstrap, Git, Figma. </li>
@@ -118,6 +134,7 @@
             <p>Singing, Reading, Producing Electronic Music, Video Editing.</p>
     
     </div>
+</div>
 </body>
 
 </html>
